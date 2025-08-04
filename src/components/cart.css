@@ -1,0 +1,11 @@
+.cartItems{
+  display:flex;
+  justify-content: space-around;
+  
+}
+.total{
+    display:flex;
+    justify-content: center;
+    background-color: beige;
+    box-shadow: 0px 2px 14px rgb(160, 160, 86);
+}
