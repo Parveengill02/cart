@@ -3,6 +3,7 @@ import Cart from './components/cart'
 import Counter1 from './components/Pages/Counter1'
 import Counter2 from './components/Pages/Counter2'
 import Counter3 from './components/Pages/Counter3'
+import UserList from './components/Pages/list'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Counter1/>
     <Counter2/>
     <Counter3/>
+    <UserList/>
     </>
    
   )
