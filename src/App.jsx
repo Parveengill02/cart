@@ -4,6 +4,7 @@ import Counter1 from './components/Pages/Counter1'
 import Counter2 from './components/Pages/Counter2'
 import Counter3 from './components/Pages/Counter3'
 import UserList from './components/Pages/list'
+import List2 from './components/Pages/list2'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Counter2/>
     <Counter3/>
     <UserList/>
+    <List2/>
     </>
    
   )

@@ -7,3 +7,12 @@ export const getData = () =>
       resolve(randomUser);
     }, 1000);
   });
+
+  export const getUser = ({count}) =>
+  new Promise((resolve) => {
+    setTimeout(() => {
+      const User=['Jon', 'Dev', 'Ram'];
+      const randomUser = User.sort(() => 0.5 - Math.random()).slice(0, count);
+      resolve(randomUser);
+    }, 1000);
+  });
